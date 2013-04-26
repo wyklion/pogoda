@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{457b9f95-ee40-4b2c-b3a4-592b88c897b9}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{9c6db0fd-d078-40b5-be21-bc0f6137a91b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{07d9a10b-924c-4a70-90e3-05883098dd0f}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\pogoda.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\block1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\stopButton.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\stopButtonSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\open1.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\open2.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\open3.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="pogoda.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="pogoda.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="StopLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="InfoLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Basic.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="UserData.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="SkillLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PropLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="MySound.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="Loading.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="RecordLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="PropMenuLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="FirstLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="FoundLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="AdminLayer.h">
+      <Filter>include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="StopLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="InfoLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="UserData.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="SkillLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PropLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="MySound.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Loading.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockFunc.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="RecordLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="PropMenuLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="FirstLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="FoundLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="AdminLayer.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
